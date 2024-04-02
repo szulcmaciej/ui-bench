@@ -1,5 +1,5 @@
 # docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-firefox:4.19.0-20240328
-
+# then open http://localhost:7900/?autoconnect=1&resize=scale&password=secret
 from selenium import webdriver
 from selenium.webdriver import Keys, ActionChains
 from selenium.webdriver.common.by import By
