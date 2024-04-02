@@ -25,4 +25,5 @@ assert "No results found." not in driver.page_source
 # ActionChains(driver).move_by_offset(13, 15).perform()
 # driver.implicitly_wait(1)
 # ActionChains(driver).move_by_offset(13, 15).perform()
-driver.close()
+# driver.close()
+driver.quit()
