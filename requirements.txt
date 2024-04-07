@@ -1,1 +1,7 @@
 selenium~=4.19.0
+pyautogui
+Pillow
+instructor
+openai
+python-dotenv
+anthropic
