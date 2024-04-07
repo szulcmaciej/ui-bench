@@ -1,0 +1,2 @@
+# compress the VM image
+sudo xz -9 -kvT 16 /var/lib/libvirt/images/ubuntu22.04-desktop-clone-fresh-after-install-updates.qcow2
