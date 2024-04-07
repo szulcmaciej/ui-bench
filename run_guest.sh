@@ -9,5 +9,5 @@ source venv/bin/activate
 uv pip install -r requirements.txt
 
 # get API keys (how?)
-# run the program (TODO change the program to actually run llms)
-python3 test_move_mouse.py
+# run the program
+python3 main.py
